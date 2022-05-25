@@ -4,6 +4,7 @@ import { devtools, persist } from "zustand/middleware";
 interface Course {
   id: string | number;
   completed: boolean;
+  title: string;
 }
 interface CourseState {
   courses: Course[];
