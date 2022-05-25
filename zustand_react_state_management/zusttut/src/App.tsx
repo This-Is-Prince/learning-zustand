@@ -1,4 +1,5 @@
 import CourseForm from "./components/CourseForm";
+import CourseList from "./components/CourseList";
 
 const App = () => {
   return (
@@ -7,6 +8,7 @@ const App = () => {
         My Course list
       </h1>
       <CourseForm />
+      <CourseList />
     </div>
   );
 };
